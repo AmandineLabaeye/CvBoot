@@ -1,6 +1,6 @@
-function monMail() {
+/*function Formulaire() {
     document.location.href = "amandine.labaeye@gmail.com";
-}
+} */
 
 function Bouton1() {
     var x = document.getElementById('bouton1');

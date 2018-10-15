@@ -44,7 +44,8 @@
 
                 06.78.80.96.97<br>
 
-                <button class="btn" onclick="monMail()">Email</button><br><br>
+
+                <button id="btn" class="btn" onclick="Formulaire()">Formulaire</button><br><br>
 
                 <a href="https://github.com/AmandineLabaeye" target="_blank"><img id="img2" src="https://i2.wp.com/www.globalemancipation.ngo/wp-content/uploads/2017/09/github-logo.png?ssl=1"></a> </p>
 
@@ -233,10 +234,10 @@
 
         <div class="row">
 
-            <div class="col-sm-1"></div>
+            <div class="col-sm-1 mb-2"></div>
 
             <!-- Intitulé compétences -->
-            <div class="col-sm-11 text-info">
+            <div class="col-sm-11 text-info mb-2">
 
                 <ul>
 
@@ -260,9 +261,50 @@
 
     </div>
 
+    <div class="row">
 
+        <div class="col-sm-12 text-center text-danger mb-2" id="TitreFormulaire" >
+
+            <h2>Formulaire de contact</h2>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-12 text-info mb-2">
+
+            <form method="post" enctype="text/plain" action="mailto:amandine.labaeye@gmail.com">
+
+                <label for="Nom"> Nom : </label>
+
+                    <input id="Nom" name="Nom" size="30">
+
+                <label for="Prenom"> Prenom : </label>
+
+                    <input id="Prenom" name="Prenom" size="30">
+
+                <label for="Email"> Email : </label>
+
+                    <input id="Email" type="email" size="30">
+
+                <label for="Message"> Message : </label>
+
+                <textarea id="Message" name="Message" rows="3" cols="30"></textarea>
+
+                <input type="submit" value="envoyer">
+
+            </form>
+
+        </div>
+
+
+    </div>
 
 </div>
+
+
 
 <script type="text/javascript" src="cvboot.js"></script>
 

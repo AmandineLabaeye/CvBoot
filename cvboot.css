@@ -54,3 +54,11 @@
     border-left: 2px solid black;
     margin-bottom: 8px;
 }
+
+#TitreFormulaire {
+    border: 2px solid black;
+}
+
+#Formulaire {
+    text-align: center;
+}
