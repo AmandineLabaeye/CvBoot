@@ -44,9 +44,6 @@
 
                 06.78.80.96.97<br>
 
-
-                <button id="btn" class="btn" onclick="Formulaire()">Formulaire</button><br><br>
-
                 <a href="https://github.com/AmandineLabaeye" target="_blank"><img id="img2" src="https://i2.wp.com/www.globalemancipation.ngo/wp-content/uploads/2017/09/github-logo.png?ssl=1"></a> </p>
 
 
@@ -275,25 +272,25 @@
 
         <div class="col-sm-12 text-info mb-2">
 
-            <form method="post" enctype="text/plain" action="mailto:amandine.labaeye@gmail.com">
+            <form method="post" id ="ff" onsubmit="return bouton4()" enctype="text/plain" action="mailto:amandine.labaeye@gmail.com">
 
-                <label for="Nom"> Nom : </label>
+                <label class="ml-5" for="Nom"> Nom : </label>
 
                     <input id="Nom" name="Nom" size="30" required>
 
-                <label for="Prenom"> Prenom : </label>
+                <label class="ml-5" for="Prenom"> Prenom : </label>
 
-                    <input id="Prenom" name="Prenom" size="30" required>
+                    <input id="Prenom"  name="Prenom" size="30" required>
 
-                <label for="Email"> Email : </label>
+                <label class="ml-5" for="Email"> Email : </label>
 
                     <input id="Email" type="email" size="30" required>
 
-                <label for="Message"> Message : </label>
+                <label class="ml-5" for="Message"> Message : </label>
 
                 <textarea id="Message" name="Message" rows="3" cols="30" required></textarea>
 
-                <input type="submit" value="envoyer">
+                <input class="btn" id="Envoyer" type="submit" value="envoyer">
 
             </form>
 

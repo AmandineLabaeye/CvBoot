@@ -29,6 +29,10 @@
     margin-bottom: 8px;
 }
 
+#Bouton11 {
+    background-color: white;
+}
+
 #TitreTrois {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -41,6 +45,11 @@
     border-left: 2px solid black;
     margin-bottom: 8px;
 }
+
+#Bouton22 {
+    background-color: white;
+}
+
 
 #TitreQuatre {
     border-top: 2px solid black;
@@ -55,10 +64,20 @@
     margin-bottom: 8px;
 }
 
+#Bouton33 {
+    background-color: white;
+}
+
+
 #TitreFormulaire {
     border: 2px solid black;
 }
 
 #Formulaire {
     text-align: center;
+}
+
+#Envoyer {
+    background-color: #005cbf;
+    color: white;
 }

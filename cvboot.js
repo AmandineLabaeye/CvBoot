@@ -1,7 +1,3 @@
-/*function Formulaire() {
-    document.location.href = "amandine.labaeye@gmail.com";
-} */
-
 function Bouton1() {
     var x = document.getElementById('bouton1');
     if (x.style.display === "none") {
@@ -33,4 +29,35 @@ function Bouton3() {
         x.style.display = "none";
         document.getElementById('Bouton33').innerHTML='+';
     }
+}
+function bouton4 () {
+    if (document.getElementById("Nom").value="")
+
+    {alert("si  rien est ecrit .\n validé.")}
+    else {
+        alert("Ta oublié de remplir");
+
+        if (document.getElementById("Prenom").value="")
+
+        {alert("si  rien est ecrit .\n validé.")}
+        else {
+            alert("Ta oublié de remplir");
+
+            if (document.getElementById("Email").value="")
+
+            {alert ("si rien est ecrit .\n validé.")}
+            else {
+                alert("Ta oublié de remplir");
+
+                if (document.getElementById("Message").value="")
+
+                {alert("si rien est ecrit .\n validé.")}
+                else {
+                    alert("Ta oublié de remplir");
+                }
+        }
+    }
+}
+
+
 }
