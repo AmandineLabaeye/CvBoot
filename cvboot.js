@@ -1,3 +1,14 @@
+function Bouton() {
+    var x = document.getElementById('bouton');
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById('Bouton12').innerHTML='-';
+    } else {
+        x.style.display = "none";
+        document.getElementById('Bouton12').innerHTML='+';
+    }
+}
+
 function Bouton1() {
     var x = document.getElementById('bouton1');
     if (x.style.display === "none") {
@@ -30,6 +41,18 @@ function Bouton3() {
         document.getElementById('Bouton33').innerHTML='+';
     }
 }
+
+function Bouton45() {
+    var x = document.getElementById('bouton45');
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById('Bouton44').innerHTML='-';
+    } else {
+        x.style.display = "none";
+        document.getElementById('Bouton44').innerHTML='+';
+    }
+}
+
 function bouton4 () {
     if (document.getElementById("Nom").value="")
 

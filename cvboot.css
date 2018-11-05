@@ -1,76 +1,93 @@
 #img {
+    margin-top: 15px;
+    border: black solid;
+    border-radius: 20px;
     width: 250px;
     height: 250px;
 }
 
 #img2 {
+    margin-top: 10px;
+    margin-left: -20px;
     width: 150px;
     height: 50px;
 }
 
+#Phrase {
+    text-decoration: underline black;
+    font-size: 20px;
+}
+
+#Titre {
+    border: solid black;
+    border-radius: 40px;
+}
+
+#Bouton12 {
+    background-color: white;
+}
+
+#boutonbor {
+    margin-top: 8px;
+}
+
 #Renseignement {
+    border-radius: 40px;
     border: 2px solid black;
+    background-color: salmon;
 }
 
-#TitrePrincipal {
-    border: 2px solid black;
+#Titre1 {
+    border: solid black;
+    border-radius: 30px;
 }
 
-#titresecondaire{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-}
 
 #boutonbor1 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    margin-bottom: 8px;
+    margin-top: 6px;
 }
 
 #Bouton11 {
     background-color: white;
 }
 
-#TitreTrois {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+#Titre2 {
+    border: black solid;
+    border-radius: 30px;
 }
 
 #boutonbor2 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    margin-bottom: 8px;
+    margin-top: 6px;
 }
 
 #Bouton22 {
     background-color: white;
 }
 
-
-#TitreQuatre {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+#Titre3 {
+    border: solid black;
+    border-radius: 30px;
 }
 
 #boutonbor3 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    margin-bottom: 8px;
+    margin-top: 6px;
 }
 
 #Bouton33 {
     background-color: white;
 }
 
+#Titre4 {
+    border: solid black;
+    border-radius: 30px;
+}
 
-#TitreFormulaire {
-    border: 2px solid black;
+#boutonbor4 {
+    margin-top: 7px;
+}
+
+#Bouton44 {
+    background-color: white;
 }
 
 #Formulaire {
