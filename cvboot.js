@@ -53,6 +53,17 @@ function Bouton45() {
     }
 }
 
+function Bouton5() {
+    var x = document.getElementById('bouton5');
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById('Bouton55').innerHTML='-';
+    } else {
+        x.style.display = "none";
+        document.getElementById('Bouton55').innerHTML='+';
+    }
+}
+
 function bouton4 () {
     if (document.getElementById("Nom").value="")
 
